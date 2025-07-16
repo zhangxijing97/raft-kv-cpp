@@ -6,12 +6,12 @@ A distributed key-value store in C++ powered by the Raft consensus algorithm. Bu
 
 Distributed services demand consistent and available data across multiple nodes—even when failures occur. This project reflects that need: it implements a fully functional Raft-based KV store in C++, complete with:
 
-- **Leader election and failure recovery**: Nodes can coordinate, choose a leader, and continue serving requests even if peers fail.
-- **Log replication and consistency**: Ensures all nodes agree on operation order, providing a consistent view of data.
-- **In-memory storage with SkipList**: Supports efficient ordered operations, serving as a core data structure.
-- **RPC-based node communication**: Uses Protocol Buffers and Muduo for efficient, type-safe interactions.
-- **Configurable cluster deployment**: Easily spin up multi-node Raft clusters using configuration files.
-- **Interactive CLI testing**: Run PUT/GET commands and observe cluster behavior in real time.
+- Leader election and failure recovery: Nodes can coordinate, choose a leader, and continue serving requests even if peers fail.
+- Log replication and consistency: Ensures all nodes agree on operation order, providing a consistent view of data.
+- In-memory storage with SkipList: Supports efficient ordered operations, serving as a core data structure.
+- RPC-based node communication: Uses Protocol Buffers and Muduo for efficient, type-safe interactions.
+- Configurable cluster deployment: Easily spin up multi-node Raft clusters using configuration files.
+- Interactive CLI testing: Run PUT/GET commands and observe cluster behavior in real time.
 
 ## 🚀 Features
 
