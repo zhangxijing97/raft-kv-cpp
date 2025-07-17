@@ -1,6 +1,6 @@
 # raft-kv-cpp
 
-A distributed key-value store in C++ powered by the Raft consensus algorithm. Built to simulate real-world challenges in distributed systems—leader election, fault tolerance, data consistency, and reliable client access.
+A distributed key-value store implemented in C++ using the Raft consensus algorithm, addressing real-world challenges such as leader election, fault tolerance, data consistency, and client request routing. When a majority of nodes agree, the cluster elects a leader to handle client requests. The system uses a SkipList-based in-memory engine to support efficient ordered key-value operations.
 
 ## 📌 Project Overview
 
